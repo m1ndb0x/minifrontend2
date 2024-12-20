@@ -254,7 +254,7 @@ function Home({ onBack }) {
                             className={`w-full p-4 rounded-lg font-medium text-lg transition-all duration-300 transform hover:scale-[1.02] ${
                                 loading 
                                     ? 'bg-gray-500 cursor-not-allowed' 
-                                    : 'bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600'
+                                    : 'bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 animate-gradient'
                             } text-white shadow-lg`}
                         >
                             {loading ? (

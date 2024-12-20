@@ -47,7 +47,7 @@ function LandingPage() {
                         </div>
                         <button
                             onClick={() => setShowTranslator(true)}
-                            className="group inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg animate-fade-in"
+                            className="group inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white animate-gradient px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg animate-fade-in"
                         >
                             <span>Start Translating</span>
                             <FaArrowRight className="transition-transform duration-300 transform group-hover:translate-x-2" />
