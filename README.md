@@ -1,8 +1,8 @@
-# React + Vite
+This is an Ai Translator app using React for the frontend, and Python for the backend.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React was used alongside Tailwind CSS to ultimately create a fast and bautiful design for the website.
 
-Currently, two official plugins are available:
+The backend uses Python to handle an API call to the AI model and translates the languages, storing the language translation (ex. french to spanish) in your local storage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Backend github repo: https://github.com/m1ndb0x/minbackend 
